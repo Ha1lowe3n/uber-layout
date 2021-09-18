@@ -36,7 +36,6 @@ p {
     text-align: center;
     text-transform: uppercase;
     color: #222222;
-    margin-bottom: 30px;
 }
 
 .subtitle {
@@ -44,7 +43,7 @@ p {
     font-weight: 400;
     font-size: 17px;
     color: #222222;
-    margin-top: 19px;
+    margin-top: 5px;
 }
 
 /* header */
@@ -309,3 +308,48 @@ header {
     }
 }
 /* section mobile */
+
+/* section car */
+.car {
+    min-height: 898px;
+    padding-top: 56px;
+    background-color: #070716;
+    position: relative;
+    z-index: -2;
+
+    &-background--white {
+        position: absolute;
+        height: 397px;
+        width: 100%;
+        background: url("../img/bg/subcar.jpg") center center / cover no-repeat;
+        top: 502px;
+        z-index: -1;
+    }
+
+    .label {
+        background-color: #fff;
+        color: #000;
+    }
+
+    img {
+        display: block;
+        margin: 54px auto 0 auto;
+        z-index: 1;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 24px;
+        color: #222222;
+        text-align: center;
+    }
+
+    .title {
+        color: #fff;
+    }
+    .subtitle {
+        color: #fff;
+    }
+}
+/* section car */
