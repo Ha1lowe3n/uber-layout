@@ -396,3 +396,77 @@ header {
     }
 }
 /* section car */
+
+/* section conditions */
+.conditions {
+    min-height: 898px;
+    padding: 66px 0 87px 0;
+
+    .blue {
+        .conditions-item--title {
+            color: $blue-color;
+        }
+
+        li {
+            &:before {
+                background: url("../icons/check_blue.png") center center / cover
+                    no-repeat;
+            }
+        }
+    }
+    .red {
+        .conditions-item--title {
+            color: $pink-color;
+        }
+
+        li {
+            &:before {
+                background: url("../icons/check_red.png") center center / cover
+                    no-repeat;
+            }
+        }
+    }
+
+    &-item {
+        margin-top: 52px;
+
+        &--title {
+            font-weight: 400;
+            font-size: 22px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 50px;
+            margin-top: 22px;
+
+            li {
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 24px;
+                color: #222222;
+                margin-bottom: 9px;
+                position: relative;
+
+                &:before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    left: -32px;
+                    height: 21px;
+                    width: 22px;
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 24px;
+            color: $blue-color;
+            margin-top: 29px;
+        }
+    }
+}
+/* section conditions */
