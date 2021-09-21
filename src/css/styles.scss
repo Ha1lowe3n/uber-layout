@@ -470,3 +470,28 @@ header {
     }
 }
 /* section conditions */
+
+/* section world */
+.world {
+    min-height: 720px;
+    padding: 46px 0 50px 0;
+    background: url("../img/bg/world.jpg") center center / cover no-repeat;
+
+    .label {
+        background-color: #fff;
+        color: #000;
+    }
+    .title,
+    .subtitle {
+        color: #fff;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 484px;
+    }
+}
+
+/* section world */
